@@ -21,7 +21,7 @@ node app.js
 ## Endpoints
 
 use curl for postman:
-curl http://localhost:3000/proverbs
+curl http://localhost:3001/proverbs
 
 Get All
 GET /proverbs
