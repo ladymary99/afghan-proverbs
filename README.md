@@ -2,14 +2,14 @@
 
 A RESTful API for storing and retrieving Afghan proverbs in Dari, Pashto, and English.
 
-## 📦 Features
+## Features
 
 - Full CRUD operations
 - Filter by category
 - Search by keyword
 - Get a random proverb
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone <repo_url>
