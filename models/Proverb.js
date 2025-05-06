@@ -5,10 +5,7 @@ const proverbSchema = new mongoose.Schema({
   textPashto: { type: String, required: true },
   translationEn: { type: String, required: true },
   meaning: { type: String },
-  category: { type: String },
+  category: [{ type: String }], // Multiple categories supported
 });
 
-// ایجاد مدل
-const Proverb = mongoose.model("Proverb", proverbSchema);
-
-module.exports = Proverb;
+module.exports = mongoose.model("Proverb", proverbSchema);

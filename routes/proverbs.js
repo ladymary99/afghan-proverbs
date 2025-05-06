@@ -1,34 +1,13 @@
 const express = require("express");
 const router = express.Router();
-const {
-  getAllProverbs,
-  getProverbById,
-  createProverb,
-  updateProverb,
-  deleteProverb,
-  getRandomProverb,
-  searchProverbs,
-} = require("../controllers/proverbs");
+const controller = require("../controllers/proverbController");
 
-// GET /proverbs
-router.get("/", getAllProverbs);
-
-// GET /proverbs/random
-router.get("/random", getRandomProverb);
-
-// GET /proverbs/search/:keyword
-router.get("/search/:keyword", searchProverbs);
-
-// GET /proverbs/:id
-router.get("/:id", getProverbById);
-
-// POST /proverbs
-router.post("/", createProverb);
-
-// PUT /proverbs/:id
-router.put("/:id", updateProverb);
-
-// DELETE /proverbs/:id
-router.delete("/:id", deleteProverb);
+router.get("/", controller.getAllProverbs);
+router.get("/random", controller.getRandomProverb);
+router.get("/search", controller.searchProverbs);
+router.get("/:id", controller.getProverbById);
+router.post("/", controller.createProverb);
+router.put("/:id", controller.updateProverb);
+router.delete("/:id", controller.deleteProverb);
 
 module.exports = router;
