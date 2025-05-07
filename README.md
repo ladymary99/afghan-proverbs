@@ -5,15 +5,13 @@ A RESTful API for storing and retrieving Afghan proverbs in Dari, Pashto, and En
 ## Features
 
 - Full CRUD operations
-- Filter by category
-- Search by keyword
 - Get a random proverb
 
 ## Getting Started
 
 ```bash
 git clone <repo_url>
-cd afghan-proverbs-api
+cd afghan-proverbs
 npm install
 node app.js
 ```

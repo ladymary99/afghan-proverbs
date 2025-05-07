@@ -1,10 +1,18 @@
 [
   {
-    "id": "1",
-    "textDari": "آب که یک جا بماند، می‌گندد.",
-    "textPashto": "اوبه چې یوې ځای کې ودریږي، بد بوی کوي.",
-    "translationEn": "Water that stays in one place becomes stagnant.",
-    "meaning": "Lack of progress or change leads to problems.",
-    "category": "wisdom"
+    "id": "74067659-739b-4c16-97c0-fc90d47c0e5b",
+    "textDari": "کار را که کرد؟ آن‌که تمام کرد.",
+    "textPashto": "کار چا وکړ؟ هغه چې تمام یې کړ.",
+    "translationEn": "Who did the job? The one who finished it.",
+    "meaning": "Credit goes to those who complete tasks.",
+    "category": "advice"
+  },
+  {
+    "id": "34ea4184-89a3-4765-b6d4-93e81e153f8a",
+    "textDari": "کار را که کرد؟ آن‌که تمام کرد.",
+    "textPashto": "کار چا وکړ؟ هغه چې تمام یې کړ.",
+    "translationEn": "Who did the job? The one who finished it.",
+    "meaning": "Credit goes to those who complete tasks.",
+    "category": "advice"
   }
 ]
